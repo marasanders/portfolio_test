@@ -1,0 +1,14 @@
+* { <!--selector -where do the rules apply * selects all
+  this is default code for most web pages-->
+  margin:0;
+  padding:0;
+  border:0;
+      <!-- 500 css properties -->
+      <!--color:lime;-->
+  font-size:inherit;
+  font: nt-weight:inherit;
+  font-family:inherit;
+  text-decoration:inherit;
+  line-height:inherit;
+  color:inherit; <!-- inherit each should inherit property from element it is inside-->
+}
