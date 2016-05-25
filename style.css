@@ -12,3 +12,22 @@
   line-height:inherit;
   color:inherit; <!-- inherit each should inherit property from element it is inside-->
 }
+html, body {
+  font-family: "Helvita Neue", Helvetica, sans-serif;
+  <!-- 1st preference, default if not available, default if 1st 2 not available last is the family can embed a font into web page-->
+  font-size:18px;
+  line-height:30px;
+  color:#444; <!--slight grey easier on eyes-->
+  text-shadow: 1px 1p 0px  #fff;<!--gives a slight white shadow to the text in html and body}
+}
+body{
+  text-align:center;
+}
+h1{
+  font-size:36px;
+  line-height: 50px;
+  font-weight: bold;
+}
+img{
+  border-radius:50%;<!--20px will round corners-->
+}
