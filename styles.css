@@ -33,6 +33,7 @@ h1 sub:before{
   content: "*";
   color:red;
 }
+}
 img{
   border-radius:50%;<!--20px will round corners-->
 }
@@ -50,3 +51,38 @@ img{
    flex-direction: column; <! default flex box aligns everything in row
    justify-content: center;
 }-->
+.hero img{
+  width: 100%;
+  height: 100%: <!-- 100% the hero image should be width and height that is is inside this is so outline will fit image-->
+}
+.smile{
+  width: 283px;
+  height: 298px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 1s, box-shadow 1s;
+}
+.smile:hover{
+  transform:rotate(360deg);
+  box-shadow: 0px 0px 100px 50px #fc0; <!-- directly behind 100 blur 50 px solid shadow-->
+}
+<!--.smile{
+  width: 283px;
+  height: 298px;
+  border-radius: 50%;
+  overflow: hidden; by default will make anything that overflows beyond border should be invisible so both border and picture will be round
+  margin-left: auto;so the white square goes away and picture will be round
+  margin-right: auto; websit should automatically figure out what margins should be default center
+        outline:1px solid red;-
+  transition: transform 1s, box-shadow 1s (glow fades) looks for property put in hover it will transition rotation will apply a little at a time
+  background-image:url("new_image.jpg") this will put a pickture under the other
+   background-size:contain; will contain the backround image into the container than it is inside not overflow
+       then would add a new
+.smile img {
+  transition 1s; saying the opacity should transition over 1second
+end squiggle
+.smile:hover img{ any image inside smile
+    opacity:0; fade image in gradually
+-->
