@@ -33,10 +33,10 @@ h1 sub{
   color: rgb(191,0,186);
   vertical-align: baseline;
 }
-h1 sub:before{
-  content: " ";
+/*h1 sub:before{
+  content: "";
   color:rgb(0,180,251);
-}
+}*/
 h2{
   /*font-family: Cinzel;*/
   color: rgb(0,180,251);
