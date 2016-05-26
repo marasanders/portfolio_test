@@ -48,8 +48,8 @@ h2 sub{
   color: rgb(191,0,186);
   vertical-align: baseline;
 }
-.red {
-  color: red;
+.green {
+  color: rgb(0,225,138);
   vertical-align: baseline;
 }
 img{
