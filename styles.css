@@ -25,6 +25,14 @@ h1{
   line-height:50px;
   font-weight:bold;
 }
+h1 sub{
+  color:red;
+  vertical-align: baseline;
+}
+h1 sub:before{
+  content: "*";
+  color:red;
+}
 img{
   border-radius:50%;<!--20px will round corners-->
 }
