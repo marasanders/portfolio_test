@@ -10,7 +10,7 @@
   color: inherit;
 }
 html, body{
-  font-family: "Helvita Neue", Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
   /*<!-- 1st preference, default if not available, default if 1st 2 not available last is the family can embed a font into web page-->*/
   font-size:18px;
   line-height:30px; /*<!-- amount of space between lines of text -->*/
@@ -23,24 +23,48 @@ body{
   background-size: 100%;
 }
 h1{
-  font-size:36px;
+  /*font-family: Cinzel;*/
+  color: rgb(0,180,251);
+  font-size:50px;
   line-height:50px;
   font-weight:bold;
 }
 h1 sub{
-  color:red;
+  color: rgb(191,0,186);
   vertical-align: baseline;
 }
 h1 sub:before{
-  content: "*";
-  color:red;
+  content: " ";
+  color:rgb(0,180,251);
 }
+h2{
+  /*font-family: Cinzel;*/
+  color: rgb(0,180,251);
+  font-size:50px;
+  line-height:50px;
+  font-weight:bold;
+}
+h2 sub{
+  color: rgb(191,0,186);
+  vertical-align: baseline;
+}
+.red {
+  color: red;
+  vertical-align: baseline;
 }
 img{
   border-radius:50%;/*<!--20px will round corners-->*/
 }
+section {
+  border-top: 2px dashed #eee;
+  padding: 50px 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
 .hero{
-  outline: 1px solid red;
+  border: 0;
+  padding: 0;
+  /*outline: 1px solid red;*/
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -55,11 +79,11 @@ img{
 }-->*/
 .hero img{
   width: 100%;
-  height: 100%: /*<!-- 100% the hero image should be width and height that is is inside this is so outline will fit image-->*/
+  height: 100%; /*<!-- 100% the hero image should be width and height that is is inside this is so outline will fit image-->*/
 }
 .smile{
-  width: 283px;
-  height: 298px;
+  width: 270px;
+  height: 270px;
   border-radius: 50%;
   overflow: hidden;
   margin-left: auto;
@@ -71,7 +95,8 @@ img{
 .smile:hover{
   transform:rotate(360deg);
   box-shadow: 0px 0px 100px 50px rgb(191,0,186),
-              0px 0px 100px 20px rgb(0,180,251) inset; */
+              0px 0px 100px 20px rgb(0,180,251) inset,
+              0px 0px 100px 100px #ff0;
 }
 .smile:hover img{ /* any image that is inside of smile*/
     opacity: 0;
