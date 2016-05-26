@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+  text-decoration: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+html, body{
+  font-family: "Helvita Neue", Helvetica, sans-serif;
+  <!-- 1st preference, default if not available, default if 1st 2 not available last is the family can embed a font into web page-->
+  font-size:18px;
+  line-height:30px; <!-- amount of space between lines of text -->
+  color:#444; <!--dark grey easier on eyes-->
+  text-shadow: 1px 1p 0px  #fff;<!--gives a slight white shadow to the text in html and body third number is bluriness-->
+}
+body{
+  text-align:center;
+}
+h1{
+  font-size:36px;
+  line-height:50px;
+  font-weight:bold;
+}
+img{
+  border-radius:50%;<!--20px will round corners-->
+}
+.hero{
+  outline: 1px solid red;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+<!--.hero{ the . selects the class no spaces in a class!!
+   outline:1 px solid red; <!dif btwn outline overlaid on top doesn't take up room and move other things and boarder moves things around like inserting wall
+   height: 100vh; view port height window using to look at it like size of screen 100%
+   display: flex; css trick called flexbox gives you control how you want to align verticly/horizontally/to each other
+   flex-direction: column; <! default flex box aligns everything in row
+   justify-content: center;
+}-->
