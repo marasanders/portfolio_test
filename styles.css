@@ -16,6 +16,7 @@ html, body{
   line-height:30px; /*<!-- amount of space between lines of text -->*/
   color:#444; /*<!--dark grey easier on eyes-->
   text-shadow: 1px 1p 0px  #fff;/*<!--gives a slight white shadow to the text in html and body third number is bluriness-->*/
+  /* Nice job commenting! However, you don't need the <!-- -->. That's only in HTML. */
 }
 body{
   text-align:center;
@@ -48,10 +49,12 @@ h2 sub{
   color: rgb(191,0,186);
   vertical-align: baseline;
 }
+/* If you want both of your `sub` elements to look the same, there's no need to have both `h1 sub` and `h2 sub` selectors: just one `sub` selector, which will select every `sub` on the page. */
 .green {
   color: rgb(0,225,138);
   vertical-align: baseline;
 }
+/* Specifying `baseline` is probably not necessary since it's the default. */
 img{
   border-radius:50%;/*<!--20px will round corners-->*/
 }
